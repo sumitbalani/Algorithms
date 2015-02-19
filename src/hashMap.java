@@ -26,7 +26,7 @@ public class hashMap {
 		mapArray[position] = new hashMapData(key, value);
 			
 		}
-		
+	//:TODO make own exception class
 	public int get(int key){
 		int count = 0;
 		int position = key%this.mapArray.length;
