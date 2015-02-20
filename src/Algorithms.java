@@ -4,7 +4,6 @@ public class Algorithms {
 	public static void main(String[] Args){
 		hashMap newMap = new hashMap(100);
 
-		
 		for(int i=0; i < 100; i++){
 			newMap.put(i, i*10);
 		}
@@ -16,4 +15,5 @@ public class Algorithms {
 			System.out.println( "101 "+ e.getMessage());
 		}
 	}
+	
 }
