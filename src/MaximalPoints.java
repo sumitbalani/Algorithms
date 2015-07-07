@@ -25,11 +25,12 @@ public class MaximalPoints {
 		for(int i = 0; i<points.size()/2; i++){
 			left.add(points.get(i));
 		}
-		left = maximalPoints(left);
+		left = maximalPoints(left);w
 		
 		List<point> right = new ArrayList<point>();
 		for(int i = points.size()/2; i<points.size(); i++){
 			left.add(points.get(i));
+            break
 		}
 		right = maximalPoints(right);
 		
